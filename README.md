@@ -12,8 +12,7 @@ dnslog-go 修改版
 
 https://github.com/ha1yu/log4j2-burp-scanner-modify
 
-
-![image](https://github.com/ha1yu/dnslog-modify/assets/59911588/9407d9e7-da12-4cdf-b923-693d5ed1b0ac)
+![image](https://github.com/ha1yu/dnslog-modify/assets/59911588/2f317475-15b7-437d-bbe9-48961d20a92c)
 
 
 配置文件 config.yaml ：
@@ -30,13 +29,13 @@ Dns:
 
 服务器执行，监听53端口，如果ubuntu的53端口被占用，百度搜一下把它关了
 
-![image](https://github.com/ha1yu/dnslog-modify/assets/59911588/ee1becb1-0660-4c5d-a35e-0ca8ce316e87)
+![image](https://github.com/ha1yu/dnslog-modify/assets/59911588/e34637ae-b93c-4493-a6d0-2ab15d654a48)
 
 新增的接口会返回ceye格式的json字符串，log4j2-burp-scanner可解析
 
 接口：http://ip:端口/api/getceye?token=passwd
+![image](https://github.com/ha1yu/dnslog-modify/assets/59911588/3076d691-433c-42a6-9d5e-d8dd774a8af4)
 
-![image](https://github.com/ha1yu/dnslog-modify/assets/59911588/a1739629-097e-43ba-b30d-9a0a5ac176ae)
 
 
 在ceyi的ceyetoken中填写接口地址：
@@ -45,7 +44,7 @@ http://8.8.8.8:31001/api/getceye?token=passwd
 
 ceyednslog填写dnslog地址
 
-![image](https://github.com/ha1yu/dnslog-modify/assets/59911588/51ffe1d0-e02a-4c12-a3c1-f620c56acb4a)
+![image](https://github.com/ha1yu/dnslog-modify/assets/59911588/99946bde-0ec3-422a-bc97-f3d72fd08843)
 
 
 
