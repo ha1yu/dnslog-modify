@@ -2,7 +2,7 @@
 
 dnslog-go 修改版
 
-原版地址：https://github.com/lanyi1998/DNSlog-GO
+搭建DNSlog详见原版，原版地址：https://github.com/lanyi1998/DNSlog-GO
 
 新增了一个ceye接口，使其能和log4j2-burp-scanner配合起来工作，现在常见的DNSlog平台大部分被防火墙等安全设备封禁，自己搭建DNSlog平台可以和burp的log4j2-burp-scanner插件配合使用
 
