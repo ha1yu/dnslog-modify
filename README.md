@@ -15,6 +15,14 @@ https://github.com/ha1yu/log4j2-burp-scanner-modify
 ![image](https://github.com/ha1yu/dnslog-modify/assets/59911588/2f317475-15b7-437d-bbe9-48961d20a92c)
 
 
+cloudflare配置：<br>
+1、新建一个A解析，指向dnslog-modify的服务器IP；<br>
+2、新建一个NS解析，指向上面创建的A解析域名（eg: log.domain.com）；<br>
+
+![image](https://github.com/ha1yu/dnslog-modify/assets/59911588/1d003a9e-efda-4f61-9e5f-7299ad50e3d1)
+
+
+
 配置文件 config.yaml ：
 
 ```
